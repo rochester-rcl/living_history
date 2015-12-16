@@ -1,5 +1,61 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    }
 
+body {
+    }
+* {
+    margin:0;
+    padding:0;
+    }
 
+/* HEADER
+-----------------------------------*/
 .uofr-header{
-  background-color: 
+    background-color: #021e47;
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+    z-index: 1000;
+    top: 0;
+    }
+.uofr-logo-container,
+.everbetter-container {
+    width: 50%;
+    float: left;
+    }
+    .navbar-brand-uofr-logo {
+        width: 210px;
+        height: auto;
+        }
+    .navbar-brand-everbetter {
+        width: 128px;
+        height: auto;
+        float: right;
+        }
+
+/* COVER
+-----------------------------------*/
+.cover {
+  
+}
+
+
+
+/* MEDIA QUERIES
+--------------------------------
+*/
+
+@media (max-width: 768px) {
+    /* Removing the Ever Better graphic on mobile */
+    .uofr-logo-container{width: 100%}
+    .everbetter-container {display: none;}
+    /**/
 }

@@ -1,6 +1,7 @@
 name = Living History Front Page
 description = Just a static front pages for the Living History Project
 core = 7.x
+base theme = bootstrap
 
 
 ;;;;;;;;;;;;;;;;;;;;;
