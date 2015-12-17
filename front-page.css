@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,700);
+
+
 html {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -82,6 +85,32 @@ body {
       box-shadow: none;
       border: 0;
       background-color: gray;
+      color: #FFF;
+}
+::-webkit-input-placeholder {
+   color: red;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: red;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: red;
+}
+
+:-ms-input-placeholder {
+   color: red;
+}
+/**/
+
+/* Collapsed button */
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+  background: none;
+}
+
+.navbar-toggle{
+  border: none;
 }
 
 /**/
@@ -114,19 +143,68 @@ body {
 .box {
     width: 50%;
     float: left;
+    border: 1px solid black;
 }
 .box-images {
   height: auto;
   width: 100%;
 }
+.box-text {
+  position: relative;
+}
+.box-headline{
+  font-family: 'Merriweather', serif;
+  position: absolute;
+  bottom: 50px;
+  font-size: 31px;
+  color: white;
+  font-weight: 200;
+}
+.box-tagline{
+  position: absolute;
+  bottom: 35px;
+  font-size: 15px;
+  color: white;
+  font-weight: 200;
+  color: lightgray;
+  font-style: italic;
+}
+.box-headline,
+.box-tagline {
+  margin-left: 30px;
+}
+.box-odd{border-left: none;}
+.box-even{border-right: none;}
 
 /**/
 
 
 
+
+/* FOOTER
+--------------------------------*/
+
+.footer{
+      padding-top: 15px;
+      background-color: #021e47;
+      width: 100%;
+      margin: 0;
+      color: #919aaf;
+}
+.footer-left,
+.footer-right{
+  width: 50%;
+  float: right;
+  margin-top: 40px;
+}
+
+.footer-right{
+  text-align: right;
+}
+/**/
+
 /* MEDIA QUERIES
---------------------------------
-*/
+--------------------------------*/
 
 @media (max-width: 768px) {
     /* Removing the Ever Better graphic on mobile */
@@ -134,9 +212,24 @@ body {
     .everbetter-container {display: none;}
     /**/
     /* Reverting padding on search box for mobile */
-    .navbar-form{padding: 10px 20px;}
+    .navbar-form{
+        padding: 10px 20px;
+        margin: 0;
+        border-top: none;
+        border-bottom: none;
+        }
+    /**/
+    .navbar :focus {outline:none;}
+    /**/
+    .navbar-default {background: rgba(0, 0, 0, 1);}
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border: none;
+        }
     /**/
     /**/
     .box { width: 100%;}
+    /**/
+    /**/
+    .tagline {display: none;}
     /**/
 }
