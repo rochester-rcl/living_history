@@ -18,6 +18,8 @@ body {
 
 /* HEADER
 -----------------------------------*/
+
+/* University of Rochester Bar */
 .uofr-header{
     background-color: #021e47;
     width: 100%;
@@ -40,12 +42,85 @@ body {
         height: auto;
         float: right;
         }
+/**/
+
+/* Living History Project Bar */
+.lhp-logo {
+    width: 240px;
+    height: auto;
+    }
+
+.navbar {
+    margin: 0;
+    }
+    .navbar.fixed{
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        }
+.navbar-default{
+    border: none;
+    background: rgba(0, 0, 0, 0.0);
+    z-index: 1000;
+    }
+    .navbar-default.fixed{
+        background: rgba(0, 0, 0, 0.8);
+        }
+
+/* Search Box */
+.navbar-form{
+  padding: 0;
+  }
+.navbar-default .navbar-nav>li>a {
+  color: rgba(255, 255, 255, 0.8);
+  }
+  .navbar-default .navbar-nav>li>a:hover {
+    color: rgba(255, 255, 255, 1.0);
+  }
+
+.navbar-form .form-control {
+      box-shadow: none;
+      border: 0;
+      background-color: gray;
+}
+
+/**/
+
 
 /* COVER
 -----------------------------------*/
 .cover {
-  
+  width: 100%;
+  margin-top: -50px;
+  }
+  .cover.jump {
+      margin-top: 0px;
+      }
+
+.tagline {
+  width: 600px;
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+  position: absolute;
+  top: 120px;
 }
+/**/
+
+
+
+/* Boxes
+-----------------------------------*/
+.box {
+    width: 50%;
+    float: left;
+}
+.box-images {
+  height: auto;
+  width: 100%;
+}
+
+/**/
 
 
 
@@ -57,5 +132,11 @@ body {
     /* Removing the Ever Better graphic on mobile */
     .uofr-logo-container{width: 100%}
     .everbetter-container {display: none;}
+    /**/
+    /* Reverting padding on search box for mobile */
+    .navbar-form{padding: 10px 20px;}
+    /**/
+    /**/
+    .box { width: 100%;}
     /**/
 }
