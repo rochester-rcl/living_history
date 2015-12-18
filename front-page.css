@@ -13,6 +13,7 @@ html {
     }
 
 body {
+    background-color: black;
     }
 * {
     margin:0;
@@ -211,10 +212,19 @@ body {
         border: none;
         }
     /**/
+    /* Tagline move below cover */
+    .tagline {
+      width: 100%;
+      font-size: 15px;
+      font-weight: 300;
+      position:static;
+      padding: 20px;
+    }
+    /**/
     /**/
     .box { width: 100%;}
     /**/
     /**/
-    .tagline {display: none;}
+    /*.tagline {display: none;}*/
     /**/
 }
