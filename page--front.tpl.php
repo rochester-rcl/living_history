@@ -34,10 +34,10 @@
     <!-- Nav links -->
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="http://catalog.lib.rochester.edu/vwebv/myAccount">Home</a></li>
-        <li><a href="http://www.library.rochester.edu/contact-us">About Project</a></li>
+        <li><a href="http://livinghistory.lib.rochester.edu">Home</a></li>
+        <li><a href="http://livinghistory.lib.rochester.edu/about">About Project</a></li>
         <!-- Nav Search box -->
-          <form class="navbar-form navbar-left" name="sitesearch" action="http://www.library.rochester.edu/site-search" method="get">
+          <form class="navbar-form navbar-left" name="sitesearch" action="http://livinghistory.lib.rochester.edu/search/content/" method="get">
             <div class="form-group">
               <input class="form-control navbar-search-grow" type="text" name="search"  placeholder="Search" title="Seach the Library website">
               </div>

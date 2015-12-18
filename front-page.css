@@ -72,7 +72,7 @@ body {
 
 /* Search Box */
 .navbar-form{
-  padding: 0;
+  padding: 0 0 0 15px;
   }
 .navbar-default .navbar-nav>li>a {
   color: rgba(255, 255, 255, 0.8);
@@ -84,23 +84,8 @@ body {
 .navbar-form .form-control {
       box-shadow: none;
       border: 0;
-      background-color: gray;
-      color: #FFF;
-}
-::-webkit-input-placeholder {
-   color: red;
-}
-
-:-moz-placeholder { /* Firefox 18- */
-   color: red;
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-   color: red;
-}
-
-:-ms-input-placeholder {
-   color: red;
+      background-color: #d6d6d6;
+      color: black;
 }
 /**/
 
