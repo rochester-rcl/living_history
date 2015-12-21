@@ -5,7 +5,7 @@
   <div class="container">
     <!-- UofR Container -->
     <div class="uofr-logo-container">
-      <a href="#">
+      <a href="http://www.rochester.edu/">
         <img class="navbar-brand-uofr-logo" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'living_history');?>/images/logo-uofr.png" />
       </a>
     </div>
@@ -50,11 +50,11 @@
   </div>
 </header>
 
-
+<div class="spacer">Spacer</div>
 
 <!-- Cover Image -->
 <div class="cover-container">
-    <img class="cover" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'living_history');?>/images/cover.jpg" />
+    <img class="cover" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'living_history');?>/images/cover2.jpg" />
     <div class="container">
       <div class="tagline">
         The oral history interviews that preserve the memories of our alumni, faculty, and staff from 1904 to the present are the foundation of the University of Rochester’s Living History Project. Recordings of other events – some filled with pomp and circumstance, others noisy and spontaneous – also preserve University history as it was lived, adding to our understanding of time, place, and memory.
@@ -65,35 +65,43 @@
 
 <!-- 4 Boxes  -->
 <div class="box box-odd">
-  <img class="box-images" alt="Living HistoryProject" src="<?php print base_path() . drupal_get_path('theme', 'living_history');?>/images/lhp.jpg" />
-  <div class="box-text">
-    <div class="box-headline">Living History Project</div>
-    <div class="box-tagline">Oral History Interviews</div>
-  </div>
+  <a href="#">
+    <img class="box-images" alt="Living HistoryProject" src="<?php print base_path() . drupal_get_path('theme', 'living_history');?>/images/lhp.jpg" />
+    <div class="box-text">
+      <div class="box-headline">Living History Project</div>
+      <div class="box-tagline">Oral History Interviews</div>
+    </div>
+  </a>
 </div>
 
 <div class="box box-even">
-  <img class="box-images" alt="Performances" src="<?php print base_path() . drupal_get_path('theme', 'living_history');?>/images/performances2.jpg" />
-  <div class="box-text">
-    <div class="box-headline">Performances</div>
-    <div class="box-tagline">Theater, Music</div>
-  </div>
+  <a href="#">
+    <img class="box-images" alt="Performances" src="<?php print base_path() . drupal_get_path('theme', 'living_history');?>/images/performances2.jpg" />
+    <div class="box-text">
+      <div class="box-headline">Performances</div>
+      <div class="box-tagline">Theater, Music</div>
+    </div>
+  </a>
 </div>
 
 <div class="box box-odd">
-  <img class="box-images" alt="Events" src="<?php print base_path() . drupal_get_path('theme', 'living_history');?>/images/events.jpg" />
-  <div class="box-text">
-    <div class="box-headline">Events</div>
-    <div class="box-tagline">Dedications, Convocations</div>
-  </div>
+  <a href="#">
+    <img class="box-images" alt="Events" src="<?php print base_path() . drupal_get_path('theme', 'living_history');?>/images/events.jpg" />
+    <div class="box-text">
+      <div class="box-headline">Events</div>
+      <div class="box-tagline">Dedications, Convocations</div>
+    </div>
+  </a>
 </div>
 
 <div class="box box-even">
-  <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'living_history');?>/images/spoken-word.jpg" />
-  <div class="box-text">
-    <div class="box-headline">Spoken Word</div>
-    <div class="box-tagline">Lectures, Readings</div>
-  </div>
+  <a href="#">
+    <img class="box-images" alt="Spoken Word" src="<?php print base_path() . drupal_get_path('theme', 'living_history');?>/images/spoken-word.jpg" />
+    <div class="box-text">
+      <div class="box-headline">Spoken Word</div>
+      <div class="box-tagline">Lectures, Readings</div>
+    </div>
+  </a>
 </div>
 <!--/-->
 
@@ -131,10 +139,11 @@
         <div class="copyright">Copyright © 1998-2015. All Rights Reserved.<br>
           University of Rochester | River Campus Libraries <br>
           Rare Books, Special Collections and Preservation
+          <a href="http://www.rochester.edu/">
+            <img class="footer-uofr-logo" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'living_history');?>/images/logo-uofr.png" />
+          </a>
         </div>
-        <div class="footer-links">
-          <?php print render($page['footer']); ?>
-        </div>
+
       </div>
 
 

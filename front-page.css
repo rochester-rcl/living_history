@@ -101,6 +101,10 @@ body {
 
 /**/
 
+/* Added space to prevent jump on scroll */
+.spacer      {height: 0;   }
+.spacer.show {height: 50px;}
+/**/
 
 /* COVER
 -----------------------------------*/
@@ -132,9 +136,13 @@ body {
     border: 1px solid black;
 }
 .box-images {
-  height: auto;
-  width: 100%;
-}
+    height: auto;
+    width: 100%;
+    opacity: 0.9;
+    }
+    .box-images:hover {
+      opacity: 1;
+      }
 .box-text {
   position: relative;
 }
@@ -187,6 +195,13 @@ body {
 .footer-right{
   text-align: right;
 }
+
+.footer-uofr-logo {
+    width: 270px;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+    }
 /**/
 
 /* MEDIA QUERIES
@@ -207,7 +222,7 @@ body {
     /**/
     .navbar :focus {outline:none;}
     /**/
-    .navbar-default {background: rgba(0, 0, 0, 1);}
+    /*.navbar-default {background: rgba(0, 0, 0, 1);}*/
     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
         border: none;
         }
@@ -222,9 +237,30 @@ body {
     }
     /**/
     /**/
+    .box-tagline{font-weight: 300;}
+    /**/
+    .box-headline,
+    .box-tagline {
+      margin-left: 20px;
+    }
+    .box-tagline {
+    }
+    /**/
     .box { width: 100%;}
     /**/
+    .footer-left,
+    .footer-right{
+        width: 100%;
+        text-align: center;
+        margin-top: 40px;
+    }
     /**/
-    /*.tagline {display: none;}*/
+    .footer-uofr-logo {
+        padding-top: 20px;
+        margin: auto;
+        }
+    /**/
+    /**/
+    .box-images {opacity: 1;}
     /**/
 }
