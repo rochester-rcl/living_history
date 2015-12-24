@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 
 <!--====== UNIVERSITY HEADER ======-->
@@ -52,19 +53,35 @@
 
 <div class="spacer">Spacer</div>
 
+
+
+
 <!-- Cover Image -->
 <div class="cover-container">
     <img class="cover" alt="University of Rochester" src="<?php print base_path() . drupal_get_path('theme', 'living_history');?>/images/cover2.jpg" />
-    <div class="container">
+    <!-- <div class="container">
       <div class="tagline">
         The oral history interviews that preserve the memories of our alumni, faculty, and staff from 1904 to the present are the foundation of the University of Rochester’s Living History Project. Recordings of other events – some filled with pomp and circumstance, others noisy and spontaneous – also preserve University history as it was lived, adding to our understanding of time, place, and memory.
       </div>
-    </div>
+    </div> -->
+</div>
+
+<div class="scroll-hint">
+  <div class="tagline-hint">
+      The oral history interviews that preserve the memories of our alumni, faculty, and staff from 1904 to the present are the foundation of the University of Rochester’s Living History Project. <span class="sub-tag-hint">Recordings of other events – some filled with pomp and circumstance, others noisy and spontaneous – also preserve University history as it was lived, adding to our understanding of time, place, and memory.</span>
+  </div>
+  <div class="scroll-hint-text"><a href="#begin">Explore</a></div>
+  <a href="#begin"><i class="fa fa-chevron-down"></i></a>
 </div>
 
 
+<div class="mobile-tagline">
+    The oral history interviews that preserve the memories of our alumni, faculty, and staff from 1904 to the present are the foundation of the University of Rochester’s Living History Project. <span class="">Recordings of other events – some filled with pomp and circumstance, others noisy and spontaneous – also preserve University history as it was lived, adding to our understanding of time, place, and memory.</span>
+</div>
+
 <!-- 4 Boxes  -->
 <div class="box box-odd">
+  <a name="begin"></a>
   <a href="#">
     <img class="box-images" alt="Living HistoryProject" src="<?php print base_path() . drupal_get_path('theme', 'living_history');?>/images/lhp.jpg" />
     <div class="box-text">
@@ -104,6 +121,7 @@
   </a>
 </div>
 <!--/-->
+
 
 <!--====== FOOTER ======-->
 <div class="footer">
@@ -153,4 +171,4 @@
 
 
 <!--====== Navigation Scroll JS ======-->
-<script src="<?php print base_path() . drupal_get_path('theme', 'rcl_drupal_theme') . '/js/nav.js'; ?>"></script>
+<script src="<?php print base_path() . drupal_get_path('theme', 'living_history') . '/nav.js'; ?>"></script>
